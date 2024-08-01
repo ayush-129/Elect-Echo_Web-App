@@ -1,6 +1,4 @@
-# Electrify Voting System
-
-Electrify is a secure and user-friendly voting system designed to ensure fair and transparent voting processes. The system leverages modern web technologies to provide a seamless experience for both users and administrators.
+Elect-Echo is a secure and user-friendly voting system designed to ensure fair and transparent voting processes. The system leverages modern web technologies to provide a seamless experience for both users and administrators.
 
 ## Features
 
@@ -29,37 +27,7 @@ Electrify is a secure and user-friendly voting system designed to ensure fair an
 - Express.js
 - Mongoose
 
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/electrify.git
-   cd electrify
-2. **Install dependencies for the backend:**
-   ```bash
-   cd backend
-   npm install
-3. **Install dependencies for the frontend:**
-   ```bash
-   cd ../frontend
-   npm install
-4. **Set up environment variables:**
-
-   Create a .env file in the backend directory and add the following:
-   ```bash
-   MONGO_URI=your_mongodb_atlas_connection_string
-   JWT_SECRET=your_jwt_secret_key
-5. **Run the application::**
-- **Backend**: 
-    ``` bash
-    cd backend
-    npm start
-- **Frontend**: 
-  ```bash
-  cd frontend
-  npm start
-  
- ## Usage
+## Usage
 
   ### Users
 - **Register**: Users can register by providing a valid Aadhar-Number and password.
@@ -76,18 +44,4 @@ Electrify is a secure and user-friendly voting system designed to ensure fair an
 - **Bcrypt Password Hashing**: Passwords are hashed using Bcrypt before being stored in the database, ensuring that even if the database is compromised, the passwords remain secure.
 - **One-Time Voting**: The system enforces a one-time voting rule, preventing multiple votes from the same user.
 
-## Contributing
-I welcome contributions to improve Electrify. Please follow these steps to contribute:
-1. **Fork the repository.**
-2. **Create a new branch (git checkout -b feature-branch).**
-3. **Make your changes.**
-4. **Commit your changes (git commit -m 'Add some feature').**
-5. **Push to the branch (git push origin feature-branch).**
-6. **Open a pull request.**
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for detail
-
-## Contact
-For any inquiries or issues, please contact me at **abhishekbelaganj0609@gmail.com.**
 
