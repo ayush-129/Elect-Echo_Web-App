@@ -8,7 +8,6 @@ const port = process.env.PORT;
 
 app.use(bodyParser.json());
 
-
 // Middleware to set CORS headers for every response
 app.use((req, res, next) => {
   const origin = req.headers.origin;
@@ -20,10 +19,7 @@ app.use((req, res, next) => {
   next();
 });
 
-// const allowedOrigins = [
-//   "",
-//   "",
-// ];
+const allowedOrigins = ["http://localhost:3000", ""];
 
 app.use(
   cors({
