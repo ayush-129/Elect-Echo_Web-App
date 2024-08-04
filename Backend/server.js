@@ -19,7 +19,7 @@ app.use((req, res, next) => {
   next();
 });
 
-const allowedOrigins = ["http://localhost:3000", ""];
+const allowedOrigins = ["http://localhost:3000", "https://elect-echo-web-app-frontend.onrender.com"];
 
 app.use(
   cors({
