@@ -6,8 +6,8 @@ const Votestate = (props) => {
   const vote = [];
   const user = [];
   const admin = [];
-  //const host = process.env.REACT_APP_API_URL;
-  const host = process.env.REACT_APP_API_URL_LOCAL;
+  const host = process.env.REACT_APP_API_URL;
+  //const host = process.env.REACT_APP_API_URL_LOCAL;
 
   // user SignUp
   const userSignUp = async (
