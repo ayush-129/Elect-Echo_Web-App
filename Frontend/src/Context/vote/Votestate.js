@@ -39,7 +39,7 @@ const Votestate = (props) => {
       }),
     });
 
-    console.log("point 2");
+    console.log("point 2", await response);
     const result = await response.json();
 
     console.log("point 3");
