@@ -11,9 +11,7 @@ router.post("/signup", async (req, res) => {
   try {
     let success = false;
     let userData = new User(req.body); // here req.body contains data which we enter
-    console.log("point 1");
     let response = await userData.save();
-    console.log("point 2");
     // this payload responsible for generating token corresponding to user's id and user's username
     const payload = {
       id: response.id,
@@ -21,11 +19,9 @@ router.post("/signup", async (req, res) => {
 
     const token = await generateToken(payload);
 
-    console.log("point 3");
     success = true;
     res.json({ success: success, token: token });
   } catch (error) {
-    console.log("I am the error");
     res.status(500).json(error);
   }
 });

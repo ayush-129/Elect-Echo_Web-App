@@ -21,7 +21,6 @@ const Votestate = (props) => {
     role
   ) => {
     const signUpUrl = `${host}/user/signup`;
-    console.log("point 1");
     const response = await fetch(signUpUrl, {
       method: "POST",
       headers: {
@@ -39,10 +38,8 @@ const Votestate = (props) => {
       }),
     });
 
-    console.log("point 2", await response);
     const result = await response.json();
 
-    console.log("point 3");
     return result;
   };
 
