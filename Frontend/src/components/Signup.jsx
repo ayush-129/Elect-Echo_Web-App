@@ -23,6 +23,8 @@ const Signup = () => {
   // this method is resposible for signUp
   const HandleSignup = async (e) => {
     e.preventDefault();
+
+    console.log("point 5");
     const result = await userSignUp(
       details.name,
       details.age,
@@ -33,6 +35,8 @@ const Signup = () => {
       details.password,
       details.role
     );
+
+    console.log("point 4");
     if (result.success) {
       alert("Signup Done");
       localStorage.setItem("token", result.token);
