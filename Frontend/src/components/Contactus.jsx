@@ -65,13 +65,13 @@ const Contactus = () => {
                   EMAIL
                 </h2>
                 <a className="text-indigo-500 leading-relaxed" href="/">
-                  ishikajais7294@gmail.com
+                  ayush129kumar@gmail.com
                 </a>
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                   PHONE
                 </h2>
                 <p className="leading-relaxed text-indigo-500">
-                  +91 7394892269
+                  +91 6207965068
                 </p>
               </div>
             </div>
