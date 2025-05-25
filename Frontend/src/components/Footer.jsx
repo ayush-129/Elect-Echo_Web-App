@@ -29,7 +29,7 @@ const Footer = () => {
             
             <Link
               className="text-white ml-3"
-              to={"https://github.com/Ishik-jais"}
+              to={"https://github.com/ayush-129"}
               target="_blank"
             >
               <svg
@@ -47,7 +47,7 @@ const Footer = () => {
             </Link>
             <Link
               className="ml-3 text-white"
-              to={"https://www.instagram.com/"}
+              to={"https://www.instagram.com/bhagat_ayush._/"}
               target="_blank"
             >
               <svg
@@ -65,7 +65,7 @@ const Footer = () => {
             </Link>
             <Link
               className="ml-3 text-white"
-              to={"https://www.linkedin.com/in/ishika-jaiswal-26a961227"}
+              to={"https://www.linkedin.com/in/ayush-kumar-4174641b3/"}
               target="_blank"
             >
               <svg
